@@ -1,5 +1,6 @@
 FROM node:16-alpine
+ENV TZ=Asia/Shanghai
+ENV LANG C.UTF-8
+RUN npm i oicq@1 -g
 
-RUN npm i oicq@1 -g && pwd
-
-WORKDIR /home/root/.oicq/
+VOLUME [ "/root/.oicq" ] 
