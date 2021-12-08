@@ -1,5 +1,5 @@
 FROM node:16-alpine
 
-RUN npm i oicq@1 -g
+RUN npm i oicq@1 -g && pwd
 
-WORKDIR /home/<user>/.oicq/
+WORKDIR /home/root/.oicq/
