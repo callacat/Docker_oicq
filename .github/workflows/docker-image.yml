@@ -35,8 +35,8 @@ jobs:
 
     - name: Build the Docker image
       run: |
-           docker build . --file Dockerfile --tag ${{ secrets.DOCKER_USERNAME }}/onebot
-           docker push ${{ secrets.DOCKER_USERNAME }}/onebot
+           docker build . --file Dockerfile --tag ${{ secrets.DOCKER_USERNAME }}/oicq
+           docker push ${{ secrets.DOCKER_USERNAME }}/oicq
 
   del_runs:
     runs-on: ubuntu-latest
