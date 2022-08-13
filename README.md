@@ -5,7 +5,7 @@ docker run -itd \
 --name oicq \
 --network=host \
 --restart=always \
--v "$(pwd)":/root/.oicq\
+-v "$(pwd)":/root/.oicq \
 dswang2233/oicq:latest
 ```
 
