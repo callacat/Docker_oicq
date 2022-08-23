@@ -6,7 +6,7 @@ docker run -itd \
 --network=host \
 --restart=always \
 -v "$(pwd)":/root/.oicq \
-dswang2233/oicq:latest
+dswang2233/oicq:latest oicq QQ号
 ```
 
 ## 说明
