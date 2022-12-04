@@ -4,3 +4,5 @@ ENV LANG C.UTF-8
 RUN npm i oicq@1 -g
 
 VOLUME [ "/root/.oicq" ] 
+
+CMD ["oicq"]
