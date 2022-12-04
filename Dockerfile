@@ -5,4 +5,4 @@ RUN npm i oicq@1 -g
 
 VOLUME [ "/root/.oicq" ] 
 
-CMD ["oicq"]
+ENTRYPOINT ["oicq"]
